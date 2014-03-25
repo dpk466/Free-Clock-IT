@@ -1,0 +1,393 @@
+/*...Norwegian...*///base is in english.
+
+/*
+  Localizable.strings
+  Clock IT
+
+  Created by Deepak Bharati on 12/12/13.
+  Copyright (c) 2013 Deepak Bharati. All rights reserved.
+*/
+
+
+
+/*-----------------------------------------------------------ScreenShot_1-----------------------------------------------------------------*/
+
+//SettingViewController
+
+/* Setting */
+"SETTING_TABLE_TITLE" = "Innstillinger";
+
+/* Done */
+"DONE_BUTTON_TEXT" = "Ferdig";
+
+/* Time */
+"TIME_HEADER" = "Tid";
+
+/* Time format */
+"TIME_FORMAT" = "Tidsformat";
+
+/* Weather */
+"WEATHER_HEADER" = "Vær";
+
+/* Weather */
+"WEATHER" = "Vær";
+
+/* Temperature format */
+"TEMPERATURE_FORMAT" = "Temperaturformat";
+
+/* Automatic hourly weather updates. Turn off weather to prevent cellular and wifi data usage. */
+"WEATHER_FOOTER" = "Automatisk væroppdatering en gang i timen. Slå av været for å hindre bruk av mobildata og wifi.";
+
+/* Display */
+"DISPLAY_HEADER" = "Skjerm";
+
+/* Theme */
+"THEME" = "Farge";
+
+/* In-app brightness */
+"APP_BRIGHTNESS" = "Lysstyrke i appen";
+
+/* Set brightness control independent of device brightness. */
+"DISPLAY_FOOTER" = "Styr lysstyrke uavhengig av lysinnstillinger på enheten.";
+
+
+
+/*-----------------------------------------------------------ScreenShot_2-----------------------------------------------------------------*/
+
+/* About */
+"ABOUT_HEADER" = "Om";
+
+/* Share with friends */
+"SHARE_WITH_FRIENDS" = "Del med venner";
+
+/* Email support */
+"EMAIL_SUPPORT" = "Send e-post til support";
+
+/* Write us a review */
+"WRITE_US_A_REVIEW" = "Skriv en anmeldelse";
+
+/* Version */
+"VERSION" = "Versjon";
+
+/* Advanced */
+"ADVANCED_HEADER" = "Avansert";
+
+/* Auto-lock */
+"AUTO_LOCK" = "Autolås";
+
+/* When Auto-Lock is on, device locks automatically according to native settings. */
+"ADVANCED_FOOTER" = "Når Autolås er på, blir enheten automatisk låst til opprinnelige innstillinger.";
+
+/* Fade-in */
+"FADE_IN_ALARM" =  "Økende lydstyrke";
+
+"ALARM_FOOTER" = "Gradvis økende alarmlyd";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_3-----------------------------------------------------------------*/
+
+//TimeFormatTableViewController
+
+/* 12-Hour */
+"12_HOUR_TEXT" = "12 timer";
+
+/* 24-Hour */
+"24_HOUR_TEXT" = "24 timer";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_4-----------------------------------------------------------------*/
+
+//TemperatureFormatTableViewController
+
+/* Celsius */
+"CELSIUS_TEXT" = "Celsius";
+
+/* Fahrenheit */
+"FAHRENHEIT_TEXT"= "Fahrenheit";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_5-----------------------------------------------------------------*/
+
+/* Check out this cool app I've been using, Clock IT. Transform your device into an elegant modern nightstand alarm. */
+"SHARE_TEXT" = "Sjekk denne kule appen jeg bruker, Klokka. Gir deg en elegant, moderne vekkerklokke!";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_6-----------------------------------------------------------------*/
+
+/* PLEASE DESCRIBE BELOW THE PROBLEM YOU ARE FACING SO WE CAN IMPROVE YOUR Clock IT EXPERIENCE:
+ 
+ The following details relate to your application and device, helps us diagnose any technical issues which your comments might relate to.
+ 
+ However, you can remove them if you prefer. */
+"SUPPORT_TEXT" = "VENNLIGST BESKRIV PROBLEMET, SLIK AT VI KAN FORBEDRE DIN OPPLEVELSE AV Klokka:<br><br><br><br><br>Detaljene under gjelder din app og enheten du bruker, og hjelper oss med å finne eventuelle tekniske problemer hos deg.<br><br>Du kan likevel slette dem hvis du vil.";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_7-----------------------------------------------------------------*/
+
+//AlarmViewController
+
+/* Alarms */
+"ALARM_TABLE_TITLE" = "Alarmer";
+
+/* Edit */
+"EDIT_BUTTON_TEXT" = "Rediger";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_8_&_9-------------------------------------------------------------*/
+
+//AddAlarmTableViewController
+
+/* Add alarm */
+"ADD_ALARM_TITLE" = "Ny alarm";
+
+/* Edit alarm */
+"EDIT_ALARM_TITLE" = "Rediger alarm";
+
+/* Save */
+"SAVE_BUTTON_TEXT" = "Lagre";
+
+/* Repeat */
+"REPEAT_TEXT" = "Gjenta";
+
+//RepeatDays...
+/* Sun  */
+"SUN_TEXT" = "Søn ";
+
+/* Mon  */
+"MON_TEXT" = "Man ";
+
+/* Tue  */
+"TUE_TEXT" = "Tirs ";
+
+/* Wed  */
+"WED_TEXT" = "Ons ";
+
+/* Thu  */
+"THU_TEXT" = "Tors ";
+
+/* Fri  */
+"FRI_TEXT" = "Fre ";
+
+/* Sat  */
+"SAT_TEXT" = "Lør ";
+
+/* Weekdays */
+"WEEKDAYS_TEXT" = "Ukedager";
+
+/* Weekends */
+"WEEKENDS_TEXT" = "Helger";
+
+/* Every day */
+"EVERYDAY_TEXT" = "Hver dag";
+
+/* Never */
+"NEVER_TEXT" = "Aldri";
+
+/* Sound */
+"SOUND_TEXT" = "Lyd";
+
+/* Snooze */
+"SNOOZE_TEXT" = "Snooze";
+
+/* Label */
+"LABEL_TEXT" = "Etikett";
+
+/* Alarm */
+"DEFAULT_ALARM_NAME" = "Alarm";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_10----------------------------------------------------------------*/
+
+//RepeatTableViewController
+
+/* Every sunday */
+"EVERY_SUNDAY" = "Hver søndag";
+
+/* Every monday */
+"EVERY_MONDAY" = "Hver mandag";
+
+/* Every tuesday */
+"EVERY_TUESDAY" = "Hver tirsdag";
+
+/* Every wednesday */
+"EVERY_WEDNESDAY" = "Hver onsdag";
+
+/* Every thursday */
+"EVERY_THURDAY" = "Hver torsdag";
+
+/* Every friday */
+"EVERY_FRIDAY" = "Hver fredag";
+
+/* Every saturday */
+"EVERY_SATURDAY" = "Hver lørdag";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_11----------------------------------------------------------------*/
+
+//SoundTableViewController
+
+/* Alarms */
+"ALARMS_TEXT" = "Alarmer";
+
+/* Music */
+"MUSIC_TEXT" = "Musikk";
+
+/* Music alarms will sound when app is running in foreground. Default alarm Tick tock jam will sound when app in lock screen or background. */
+"MUSIC_FOOTER" = "Musikkalarmer virker når appen kjører i forgrunnen. Når appen ligger i bakgrunnen eller med låst skjerm, vil standardalarmen Tikktakk brukes istedenfor.";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_12----------------------------------------------------------------*/
+
+//SnoozeTableViewController
+
+/* 2 minute */
+"SNOOZE1" = "2 minutter";
+
+/* 5 minute */
+"SNOOZE2" = "5 minutter";
+
+/* 10 minute */
+"SNOOZE3" = "10 minutter";
+
+/* 15 minute */
+"SNOOZE4" = "15 minutter";
+
+/* 30 minute */
+"SNOOZE5" = "30 minutter";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_13----------------------------------------------------------------*/
+
+//RingingViewController
+
+/* Snooze */
+"SNOOZE_BUTTON" = "Snooze";
+
+/* I'm awake  */
+"AWAKE_BUTTON" = "Våken";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_14----------------------------------------------------------------*/
+
+//WhatsNewView
+
+/* We've rebuilt our app from the ground up.
+ Its a whole lot faster and smarter. */
+"WHATS_NEW_HEADER" = "Appen er nå som ny. \nDen er mye raskere og smartere.";
+
+/* Swipe to adjust brightness */
+"FEATURE_ONE" = "Sveip for å justere lysstyrke";
+
+/* Wake up to your own music */
+"FEATURE_TWO" = "Våkne til din egen musikk";
+
+/* Launch */
+"OK_BUTTON" = "Start";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_15----------------------------------------------------------------*/
+
+//These are the alarm Sound Names.
+
+/* Tick tock jam */
+"SOUND1" = "Tikktakk";
+
+/* Jingle bells */
+"SOUND2" = "Bjelleklang";
+
+/* Alarming */
+"SOUND3" = "Alarm";
+
+/* Digital watch */
+"SOUND4" = "Digital klokke";
+
+/* Good morning */
+"SOUND5" = "God morgen";
+
+/* Morning flutter */
+"SOUND6" = "Morgenflimmer";
+
+/* Rooster */
+"SOUND7" = "Hanegal";
+
+/* Spanish guitar */
+"SOUND8" = "Spansk gitar";
+
+/* Special morning */
+"SOUND9" = "Spesiell morgen";
+
+/* Trance soft alarm */
+"SOUND10" = "Myk alarm";
+
+/* Hip hop */
+"SOUND11" = "Hip hop";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_16————————————————————————————————*/
+
+//ThemeTableViewController
+
+//These are the different Theme Names.
+
+"MODERNO_TEXT" = "Moderne";
+"CARBON_TEXT" = "Karbon";
+"SCARLET_TEXT" = "Karmosinrød";
+"AZURE_TEXT" = "Asurblå";
+"HARMONY_TEXT" = "Harmoni";
+"SUNSHINE_TEXT" = "Solskinn";
+"AURORA_TEXT" = "Aurora";
+"XMAS_TEXT" = "Jul";
+
+
+
+/*------------------------------------------------------------HomeScreen---------------------------------------------------------------*/
+
+/* , */
+"COMMA_SYMBOL" = "";
+
+
+/*------------------------------------------------------------DatabaseStuffs---------------------------------------------------------------*/
+
+/* Column name in db for weatherString */
+"DB_COLUMN"= "NOR";
+/*------------------------------------------------------------TextToPointFullVersion---------------------------------------------------------------*/
+
+"GET_UPGRADE" = "Enable Weather";
+"REMOVE_AD" = "Remove ads";
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------*/

@@ -1,0 +1,402 @@
+/*…Chinese…*///base is in english.
+
+/*
+ Localizable.strings
+ Clock IT
+ 
+ Created by CREO IT PVT LTD on 12/12/13.
+ Copyright (c) 2013 CREO IT PVT LTD. All rights reserved.
+ */
+
+
+
+/*-----------------------------------------------------------ScreenShot_1-----------------------------------------------------------------*/
+
+//SettingViewController
+
+/* Settings */
+"SETTING_TABLE_TITLE" = "设置";
+
+/* Done */
+"DONE_BUTTON_TEXT" = "完成";
+
+/* Time */
+"TIME_HEADER" = "时间";
+
+/* Time format */
+"TIME_FORMAT" = "时间格式";
+
+/* Weather */
+"WEATHER_HEADER" = "天气";
+
+/* Weather */
+"WEATHER" = "天气";
+
+/* Temperature format */
+"TEMPERATURE_FORMAT" = "温度格式";
+
+/* Automatic hourly weather updates. Turn off weather to prevent cellular and wifi data usage. */
+"WEATHER_FOOTER" = "每小时自动更新天气。关闭天气预报，防止移动和无线数据的使用。";
+
+/* Display */
+"DISPLAY_HEADER" = "显示";
+
+/* Theme */
+"THEME" = "主题";
+
+/* In-app brightness */
+"APP_BRIGHTNESS" = "应用程序内亮度";
+
+/* Set brightness control independent of device brightness. */
+"DISPLAY_FOOTER" = "设置独立于设备亮度的亮度控制。";
+
+
+
+/*-----------------------------------------------------------ScreenShot_2-----------------------------------------------------------------*/
+
+/* About */
+"ABOUT_HEADER" = "关于";
+
+/* Share with friends */
+"SHARE_WITH_FRIENDS" = "与朋友分享";
+
+/* Email support */
+"EMAIL_SUPPORT" = "电子邮件支持";
+
+/* Write us a review */
+"WRITE_US_A_REVIEW" = "写评论给我们";
+
+/* Version */
+"VERSION" = "版本";
+
+/* Advanced */
+"ADVANCED_HEADER" = "高级";
+
+/* Auto-lock */
+"AUTO_LOCK" = "自动锁定";
+
+/* When Auto-Lock is on, device locks automatically according to native settings. */
+"ADVANCED_FOOTER" = "当自动锁定开启时，设备根据本地设置自动锁定。";
+
+/* Fade-in */
+"FADE_IN_ALARM" = "渐强";
+
+"ALARM_FOOTER" = "轻柔渐强闹铃";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_3-----------------------------------------------------------------*/
+
+//TimeFormatTableViewController
+
+/* 12-Hour */
+"12_HOUR_TEXT" = "12小时制";
+
+/* 24-Hour */
+"24_HOUR_TEXT" = "24小时制";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_4-----------------------------------------------------------------*/
+
+//TemperatureFormatTableViewController
+
+/* Celsius */
+"CELSIUS_TEXT" = "摄氏温度";
+
+/* Fahrenheit */
+"FAHRENHEIT_TEXT"= "华氏温度";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_5-----------------------------------------------------------------*/
+
+/* Check out this cool app I've been using, Clock IT. Transform your device into an elegant modern nightstand alarm. */
+"SHARE_TEXT" = "查看一下我一直在用的这款酷应用程序《记时闹铃》 。把您的设备改变成一款优雅现代的床头闹铃。";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_6-----------------------------------------------------------------*/
+
+/* PLEASE DESCRIBE BELOW THE PROBLEM YOU ARE FACING SO WE CAN IMPROVE YOUR Clock IT EXPERIENCE:
+ 
+ The following details relate to your application and device, helps us diagnose any technical issues which your comments might relate to.
+ 
+ However, you can remove them if you prefer. */
+"SUPPORT_TEXT" = "请在下面描述您所遇到的问题，以便我们能够改进您的《记时闹铃》体验：<br><br><br><br><br>以下细节与您的应用程序和设备有关，帮助我们诊断任何您的评论所涉及的技术问题。<br><br>然而，如果您喜欢，您可以将其删除。";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_7-----------------------------------------------------------------*/
+
+//AlarmViewController
+
+/* Alarms */
+"ALARM_TABLE_TITLE" = "闹铃";
+
+/* Edit */
+"EDIT_BUTTON_TEXT" = "编辑";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_8_&_9-------------------------------------------------------------*/
+
+//AddAlarmTableViewController
+
+/* Add alarm */
+"ADD_ALARM_TITLE" = "添加闹铃";
+
+/* Edit alarm */
+"EDIT_ALARM_TITLE" = "编辑闹铃";
+
+/* Save */
+"SAVE_BUTTON_TEXT" = "保存";
+
+/* Repeat */
+"REPEAT_TEXT" = "重复";
+
+//RepeatDays...
+/* Sun  */
+"SUN_TEXT" = "周日 ";
+
+/* Mon  */
+"MON_TEXT" = "周一 ";
+
+/* Tue  */
+"TUE_TEXT" = "周二 ";
+
+/* Wed  */
+"WED_TEXT" = "周三 ";
+
+/* Thu  */
+"THU_TEXT" = "周四 ";
+
+/* Fri  */
+"FRI_TEXT" = "周五 ";
+
+/* Sat  */
+"SAT_TEXT" = "周六";
+
+/* Weekdays */
+"WEEKDAYS_TEXT" = "工作日";
+
+/* Weekends */
+"WEEKENDS_TEXT" = "周末";
+
+/* Every day */
+"EVERYDAY_TEXT" = "每天";
+
+/* Never */
+"NEVER_TEXT" = "从不";
+
+/* Sound */
+"SOUND_TEXT" = "声音";
+
+/* Snooze */
+"SNOOZE_TEXT" = "小睡";
+
+/* Label */
+"LABEL_TEXT" = "标签";
+
+/* Alarm */
+"DEFAULT_ALARM_NAME" = "闹铃";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_10----------------------------------------------------------------*/
+
+//RepeatTableViewController
+
+/* Every sunday */
+"EVERY_SUNDAY" = "每周日";
+
+/* Every monday */
+"EVERY_MONDAY" = "每周一";
+
+/* Every tuesday */
+"EVERY_TUESDAY" = "每周二";
+
+/* Every wednesday */
+"EVERY_WEDNESDAY" = "每周三";
+
+/* Every thursday */
+"EVERY_THURDAY" = "每周四";
+
+/* Every friday */
+"EVERY_FRIDAY" = "每周五";
+
+/* Every saturday */
+"EVERY_SATURDAY" = "每周六";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_11----------------------------------------------------------------*/
+
+//SoundTableViewController
+
+/* Alarms */
+"ALARMS_TEXT" = "闹铃";
+
+/* Music */
+"MUSIC_TEXT" = "音乐";
+
+/* Music alarms will sound when app is running in foreground. Default alarm Tick tock jam will sound when app in lock screen or background. */
+"MUSIC_FOOTER" = "当应用程序在前台运行是，音乐闹铃将会响起。当应用程序在锁屏或在后台时，默认滴答果酱将会响起。";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_12----------------------------------------------------------------*/
+
+//SnoozeTableViewController
+
+/* 2 minute */
+"SNOOZE1" = "2分钟";
+
+/* 5 minute */
+"SNOOZE2" = "5分钟";
+
+/* 10 minute */
+"SNOOZE3" = "10分钟";
+
+/* 15 minute */
+"SNOOZE4" = "15分钟";
+
+/* 30 minute */
+"SNOOZE5" = "30分钟";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_13----------------------------------------------------------------*/
+
+//RingingViewController
+
+/* Snooze */
+"SNOOZE_BUTTON" = "小睡";
+
+/* I'm awake  */
+"AWAKE_BUTTON" = "我醒着";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_14----------------------------------------------------------------*/
+
+//WhatsNewView
+
+/* We've rebuilt our app from the ground up.
+ Its a whole lot faster and smarter. */
+"WHATS_NEW_HEADER" = "我们彻底重建了我们的应用程序。\n它更快、更智能。";
+
+/* Swipe to adjust brightness */
+"FEATURE_ONE" = "滑动调节亮度";
+
+/* Wake up to your own music */
+"FEATURE_TWO" = "醒至您自己的音乐之中";
+
+/* Launch */
+"OK_BUTTON" = "启动";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_15----------------------------------------------------------------*/
+
+//These are the alarm Sound Names.
+
+/* Tick tock jam */
+"SOUND1" = "滴答果酱";
+
+/* Jingle bells */
+"SOUND2" = "圣诞铃声";
+
+/* Alarming */
+"SOUND3" = "报警";
+
+/* Digital watch */
+"SOUND4" = "电子表";
+
+/* Good morning */
+"SOUND5" = "早安";
+
+/* Morning flutter */
+"SOUND6" = "清晨颤动";
+
+/* Rooster */
+"SOUND7" = "雄鸡";
+
+/* Spanish guitar */
+"SOUND8" = "西班牙吉他";
+
+/* Special morning */
+"SOUND9" = "特别清晨";
+
+/* Trance soft alarm */
+"SOUND10" = "迷幻柔和闹铃";
+
+/* Hip hop */
+"SOUND11" = "嘻哈";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_16————————————————————————————————*/
+
+//ThemeTableViewController
+
+//These are the different Theme Names.
+
+"MODERNO_TEXT" = "摩登";
+"CARBON_TEXT" = "碳元素";
+"SCARLET_TEXT" = "赤红";
+"AZURE_TEXT" = "蔚蓝";
+"HARMONY_TEXT" = "和谐";
+"SUNSHINE_TEXT" = "阳光";
+"AURORA_TEXT" = "曙光";
+"XMAS_TEXT" = "圣诞";
+
+
+
+
+/*------------------------------------------------------------HomeScreen---------------------------------------------------------------*/
+
+/* , */
+"COMMA_SYMBOL" = "";
+
+
+/*------------------------------------------------------------DatabaseStuffs---------------------------------------------------------------*/
+
+/* Column name in db for weatherString */
+"DB_COLUMN"= "MAN";
+
+/*------------------------------------------------------------TextToPointFullVersion---------------------------------------------------------------*/
+
+"GET_UPGRADE" = "Enable Weather";
+"REMOVE_AD" = "Remove ads";
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+

@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531B3BA71857215D0054FF72 /* EDSunriseSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 531B3BA31857215D0054FF72 /* EDSunriseSet.m */; };
+		531B3BA81857215D0054FF72 /* EDSunriseSet.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 531B3BA41857215D0054FF72 /* EDSunriseSet.podspec */; };
+		531B3BA91857215D0054FF72 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 531B3BA51857215D0054FF72 /* license.txt */; };
+		531B3BAA1857215D0054FF72 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 531B3BA61857215D0054FF72 /* README.markdown */; };
+		5335104118BCC22500EC914D /* MyAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5335104018BCC22500EC914D /* MyAlert.m */; };
+		5335104318BCD4C400EC914D /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5335104218BCD4C400EC914D /* iAd.framework */; };
+		5335117418C07AE900EC914D /* PagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5335117318C07AE900EC914D /* PagedScrollViewController.m */; };
+		53355130183B2D0B00C666CE /* AddAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5335512F183B2D0B00C666CE /* AddAlarmViewController.m */; };
+		53355178183B674200C666CE /* RepeatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53355177183B674200C666CE /* RepeatTableViewController.m */; };
+		5335517B183B677400C666CE /* SoundTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5335517A183B677400C666CE /* SoundTableViewController.m */; };
+		5352459E1839EA4C00BEB90E /* TemperatureFormatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5352459D1839EA4C00BEB90E /* TemperatureFormatTableViewController.m */; };
+		535245A1183A1EED00BEB90E /* AlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 535245A0183A1EED00BEB90E /* AlarmViewController.m */; };
+		53632D3918533CF900849E10 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53632D3818533CF900849E10 /* SystemConfiguration.framework */; };
+		53632D3B18533D0F00849E10 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53632D3A18533D0F00849E10 /* AdSupport.framework */; };
+		536C91B21834D31F00E7A002 /* WeatherViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 536C91B11834D31F00E7A002 /* WeatherViewInfo.m */; };
+		536C91B61834F79600E7A002 /* AlarmDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 536C91B51834F79600E7A002 /* AlarmDatabase.m */; };
+		5378EED4184CAFDE00BFE796 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5378EED3184CAFDE00BFE796 /* MediaPlayer.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		5378EEDB184DF2D600BFE796 /* TSLibraryImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5378EEDA184DF2D600BFE796 /* TSLibraryImport.m */; };
+		53A64546185ED4680016DD81 /* libFlurry_4.3.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A64545185ED4680016DD81 /* libFlurry_4.3.0.a */; };
+		53A6454D1860617F0016DD81 /* WhatsNewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A6454C1860617F0016DD81 /* WhatsNewView.m */; };
+		53A6A335189A5BD400021396 /* ALARM.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 53A6A333189A5BD400021396 /* ALARM.sqlite */; };
+		53A6A336189A5BD400021396 /* WEATHER.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 53A6A334189A5BD400021396 /* WEATHER.sqlite */; };
+		53A6A339189A5C6900021396 /* WeatherDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A6A338189A5C6900021396 /* WeatherDatabase.m */; };
+		53C4E3D41861C97800DFDD7D /* WhatsNewView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53C4E3D31861C97800DFDD7D /* WhatsNewView_iPad.xib */; };
+		53C5D4B5183CC41A004475E5 /* AlarmInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C5D4B4183CC41A004475E5 /* AlarmInfo.m */; };
+		53C5D4CC183CED5C004475E5 /* alarm.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 53C5D4CB183CED5C004475E5 /* alarm.sqlite3 */; };
+		53C5D4CF183E140D004475E5 /* AlarmSchedular.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C5D4CE183E140D004475E5 /* AlarmSchedular.m */; };
+		53C5D4D218433697004475E5 /* SnoozeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C5D4D118433697004475E5 /* SnoozeTableViewController.m */; };
+		53C5D518184393E0004475E5 /* alarming.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 53C5D50D184393E0004475E5 /* alarming.m4r */; };
+		53C5D519184393E0004475E5 /* digitalWatch.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 53C5D50E184393E0004475E5 /* digitalWatch.m4r */; };
+		53C5D51A184393E0004475E5 /* goodMorning.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 53C5D50F184393E0004475E5 /* goodMorning.m4r */; };
+		53C5D51B184393E0004475E5 /* hipHop.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 53C5D510184393E0004475E5 /* hipHop.m4r */; };
+		53C5D51C184393E0004475E5 /* jingleBells.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 53C5D511184393E0004475E5 /* jingleBells.m4r */; };
+		53C5D51D184393E0004475E5 /* morningFlutter.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 53C5D512184393E0004475E5 /* morningFlutter.m4r */; };
+		53C5D51E184393E0004475E5 /* rooster.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 53C5D513184393E0004475E5 /* rooster.m4r */; };
+		53C5D51F184393E0004475E5 /* spanishGuitar.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 53C5D514184393E0004475E5 /* spanishGuitar.m4r */; };
+		53C5D520184393E0004475E5 /* specialMorning.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 53C5D515184393E0004475E5 /* specialMorning.m4r */; };
+		53C5D521184393E0004475E5 /* tickTockJam.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 53C5D516184393E0004475E5 /* tickTockJam.m4r */; };
+		53C5D522184393E0004475E5 /* tranceSoftAlarm.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 53C5D517184393E0004475E5 /* tranceSoftAlarm.m4r */; };
+		53C5D525184465FD004475E5 /* MySound.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C5D524184465FD004475E5 /* MySound.m */; };
+		53C5D5291844A019004475E5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C5D5281844A019004475E5 /* AVFoundation.framework */; };
+		53C5D52C1845B0EC004475E5 /* RingingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C5D52B1845B0EC004475E5 /* RingingViewController.m */; };
+		53C5D52E18478289004475E5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C5D52D18478289004475E5 /* MessageUI.framework */; };
+		53C5D534184783D3004475E5 /* AppOsVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C5D533184783D3004475E5 /* AppOsVersion.m */; };
+		53C5D53718486778004475E5 /* MySystemPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C5D53618486778004475E5 /* MySystemPreference.m */; };
+		53D91F951862E1D500FFC50D /* WhatsNewView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53D91F941862E1D500FFC50D /* WhatsNewView_iPhone.xib */; };
+		53E17AFE1820DA1100CA0E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E17AFD1820DA1100CA0E56 /* Foundation.framework */; };
+		53E17B021820DA1100CA0E56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E17B011820DA1100CA0E56 /* UIKit.framework */; };
+		53E17B0A1820DA1100CA0E56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E17B091820DA1100CA0E56 /* main.m */; };
+		53E17B0E1820DA1100CA0E56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E17B0D1820DA1100CA0E56 /* AppDelegate.m */; };
+		53E17B171820DA1100CA0E56 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E17B161820DA1100CA0E56 /* HomeViewController.m */; };
+		53E17B191820DA1100CA0E56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E17B181820DA1100CA0E56 /* Images.xcassets */; };
+		53E1B156185B14D8009DF09B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53E1B14E185B14D8009DF09B /* InfoPlist.strings */; };
+		53E1B157185B14D8009DF09B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53E1B150185B14D8009DF09B /* Localizable.strings */; };
+		53E1B158185B14D8009DF09B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E1B152185B14D8009DF09B /* Main_iPad.storyboard */; };
+		53E1B159185B14D8009DF09B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E1B154185B14D8009DF09B /* Main_iPhone.storyboard */; };
+		53FFF89A182CEC9000E56006 /* MyDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF897182CEC9000E56006 /* MyDateTime.m */; };
+		53FFF89B182CEC9000E56006 /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF899182CEC9000E56006 /* Theme.m */; };
+		53FFF89E182CECDF00E56006 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF89D182CECDF00E56006 /* SettingViewController.m */; };
+		53FFF8A3182CECEF00E56006 /* ThemeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8A0182CECEF00E56006 /* ThemeTableViewController.m */; };
+		53FFF8A4182CECEF00E56006 /* TimeFormatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8A2182CECEF00E56006 /* TimeFormatTableViewController.m */; };
+		53FFF8B9182CFF5100E56006 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8A7182CFF5100E56006 /* AFHTTPClient.m */; };
+		53FFF8BA182CFF5100E56006 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8A9182CFF5100E56006 /* AFHTTPRequestOperation.m */; };
+		53FFF8BB182CFF5100E56006 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8AB182CFF5100E56006 /* AFImageRequestOperation.m */; };
+		53FFF8BC182CFF5100E56006 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8AD182CFF5100E56006 /* AFJSONRequestOperation.m */; };
+		53FFF8BD182CFF5100E56006 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8AF182CFF5100E56006 /* AFNetworkActivityIndicatorManager.m */; };
+		53FFF8BE182CFF5100E56006 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8B2182CFF5100E56006 /* AFPropertyListRequestOperation.m */; };
+		53FFF8BF182CFF5100E56006 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8B4182CFF5100E56006 /* AFURLConnectionOperation.m */; };
+		53FFF8C0182CFF5100E56006 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8B6182CFF5100E56006 /* AFXMLRequestOperation.m */; };
+		53FFF8C1182CFF5100E56006 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8B8182CFF5100E56006 /* UIImageView+AFNetworking.m */; };
+		53FFF8C8182D05B200E56006 /* WeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8C7182D05B200E56006 /* WeatherView.m */; };
+		53FFF8CD1832551900E56006 /* MyWebRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FFF8CC1832551900E56006 /* MyWebRequests.m */; };
+		53FFF8D81833838500E56006 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FFF8D71833838500E56006 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		531207C618AE3C830080269E /* Spain.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Spain.gpx; path = Resources/Spain.gpx; sourceTree = "<group>"; };
+		531B3BA21857215D0054FF72 /* EDSunriseSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSunriseSet.h; sourceTree = "<group>"; };
+		531B3BA31857215D0054FF72 /* EDSunriseSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSunriseSet.m; sourceTree = "<group>"; };
+		531B3BA41857215D0054FF72 /* EDSunriseSet.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EDSunriseSet.podspec; sourceTree = "<group>"; };
+		531B3BA51857215D0054FF72 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		531B3BA61857215D0054FF72 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		5325ED4118B20E5B00978D5A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5325ED4218B20E5B00978D5A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5325ED4318B21EE400978D5A /* Germany.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Germany.gpx; path = Resources/Germany.gpx; sourceTree = "<group>"; };
+		5335103F18BCC22500EC914D /* MyAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAlert.h; path = Models/MyAlert.h; sourceTree = "<group>"; };
+		5335104018BCC22500EC914D /* MyAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAlert.m; path = Models/MyAlert.m; sourceTree = "<group>"; };
+		5335104218BCD4C400EC914D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		5335117218C07AE900EC914D /* PagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedScrollViewController.h; sourceTree = "<group>"; };
+		5335117318C07AE900EC914D /* PagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedScrollViewController.m; sourceTree = "<group>"; };
+		5335512E183B2D0B00C666CE /* AddAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddAlarmViewController.h; path = Controllers/AddAlarmViewController.h; sourceTree = "<group>"; };
+		5335512F183B2D0B00C666CE /* AddAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddAlarmViewController.m; path = Controllers/AddAlarmViewController.m; sourceTree = "<group>"; };
+		53355176183B674200C666CE /* RepeatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepeatTableViewController.h; path = Controllers/RepeatTableViewController.h; sourceTree = "<group>"; };
+		53355177183B674200C666CE /* RepeatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepeatTableViewController.m; path = Controllers/RepeatTableViewController.m; sourceTree = "<group>"; };
+		53355179183B677300C666CE /* SoundTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundTableViewController.h; path = Controllers/SoundTableViewController.h; sourceTree = "<group>"; };
+		5335517A183B677400C666CE /* SoundTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundTableViewController.m; path = Controllers/SoundTableViewController.m; sourceTree = "<group>"; };
+		5352459C1839EA4C00BEB90E /* TemperatureFormatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemperatureFormatTableViewController.h; path = Controllers/TemperatureFormatTableViewController.h; sourceTree = "<group>"; };
+		5352459D1839EA4C00BEB90E /* TemperatureFormatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemperatureFormatTableViewController.m; path = Controllers/TemperatureFormatTableViewController.m; sourceTree = "<group>"; };
+		5352459F183A1EED00BEB90E /* AlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlarmViewController.h; path = Controllers/AlarmViewController.h; sourceTree = "<group>"; };
+		535245A0183A1EED00BEB90E /* AlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlarmViewController.m; path = Controllers/AlarmViewController.m; sourceTree = "<group>"; };
+		53632D3818533CF900849E10 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		53632D3A18533D0F00849E10 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		53650C7F187FC4D6009D193F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		53650C80187FC4D6009D193F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		536C91B01834D31F00E7A002 /* WeatherViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherViewInfo.h; path = Models/WeatherViewInfo.h; sourceTree = "<group>"; };
+		536C91B11834D31F00E7A002 /* WeatherViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherViewInfo.m; path = Models/WeatherViewInfo.m; sourceTree = "<group>"; };
+		536C91B41834F79600E7A002 /* AlarmDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlarmDatabase.h; path = Models/AlarmDatabase.h; sourceTree = "<group>"; };
+		536C91B51834F79600E7A002 /* AlarmDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlarmDatabase.m; path = Models/AlarmDatabase.m; sourceTree = "<group>"; };
+		5378EED3184CAFDE00BFE796 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5378EED9184DF2D600BFE796 /* TSLibraryImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLibraryImport.h; sourceTree = "<group>"; };
+		5378EEDA184DF2D600BFE796 /* TSLibraryImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLibraryImport.m; sourceTree = "<group>"; };
+		5378EEDF1850444400BFE796 /* MyClockIt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MyClockIt.entitlements; sourceTree = "<group>"; };
+		5394CFAA18914B3900B22C74 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5394CFAB18914B3900B22C74 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		539F91B1185B36F3000B4CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		539F91B2185B36FF000B4CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53A64544185ED4680016DD81 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		53A64545185ED4680016DD81 /* libFlurry_4.3.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.3.0.a; sourceTree = "<group>"; };
+		53A6454B1860617F0016DD81 /* WhatsNewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhatsNewView.h; path = Views/WhatsNewView.h; sourceTree = "<group>"; };
+		53A6454C1860617F0016DD81 /* WhatsNewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhatsNewView.m; path = Views/WhatsNewView.m; sourceTree = "<group>"; };
+		53A6A333189A5BD400021396 /* ALARM.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ALARM.sqlite; sourceTree = "<group>"; };
+		53A6A334189A5BD400021396 /* WEATHER.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = WEATHER.sqlite; sourceTree = "<group>"; };
+		53A6A337189A5C6900021396 /* WeatherDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherDatabase.h; path = Models/WeatherDatabase.h; sourceTree = "<group>"; };
+		53A6A338189A5C6900021396 /* WeatherDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherDatabase.m; path = Models/WeatherDatabase.m; sourceTree = "<group>"; };
+		53A6A33D189B780D00021396 /* Paris.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Paris.gpx; path = Resources/Paris.gpx; sourceTree = "<group>"; };
+		53A6A33E189B785D00021396 /* Oslo.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Oslo.gpx; path = Resources/Oslo.gpx; sourceTree = "<group>"; };
+		53A6A33F189BB03300021396 /* Beijing.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Beijing.gpx; path = Resources/Beijing.gpx; sourceTree = "<group>"; };
+		53A6A34018AB54F400021396 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53A6A34118AB54F400021396 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		53C4E3D31861C97800DFDD7D /* WhatsNewView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WhatsNewView_iPad.xib; path = Views/WhatsNewView_iPad.xib; sourceTree = "<group>"; };
+		53C5D4B3183CC41A004475E5 /* AlarmInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlarmInfo.h; path = Models/AlarmInfo.h; sourceTree = "<group>"; };
+		53C5D4B4183CC41A004475E5 /* AlarmInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlarmInfo.m; path = Models/AlarmInfo.m; sourceTree = "<group>"; };
+		53C5D4CB183CED5C004475E5 /* alarm.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = alarm.sqlite3; sourceTree = "<group>"; };
+		53C5D4CD183E140D004475E5 /* AlarmSchedular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlarmSchedular.h; path = Models/AlarmSchedular.h; sourceTree = "<group>"; };
+		53C5D4CE183E140D004475E5 /* AlarmSchedular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlarmSchedular.m; path = Models/AlarmSchedular.m; sourceTree = "<group>"; };
+		53C5D4D018433697004475E5 /* SnoozeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnoozeTableViewController.h; path = Controllers/SnoozeTableViewController.h; sourceTree = "<group>"; };
+		53C5D4D118433697004475E5 /* SnoozeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SnoozeTableViewController.m; path = Controllers/SnoozeTableViewController.m; sourceTree = "<group>"; };
+		53C5D50D184393E0004475E5 /* alarming.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = alarming.m4r; sourceTree = "<group>"; };
+		53C5D50E184393E0004475E5 /* digitalWatch.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = digitalWatch.m4r; sourceTree = "<group>"; };
+		53C5D50F184393E0004475E5 /* goodMorning.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = goodMorning.m4r; sourceTree = "<group>"; };
+		53C5D510184393E0004475E5 /* hipHop.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = hipHop.m4r; sourceTree = "<group>"; };
+		53C5D511184393E0004475E5 /* jingleBells.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = jingleBells.m4r; sourceTree = "<group>"; };
+		53C5D512184393E0004475E5 /* morningFlutter.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = morningFlutter.m4r; sourceTree = "<group>"; };
+		53C5D513184393E0004475E5 /* rooster.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = rooster.m4r; sourceTree = "<group>"; };
+		53C5D514184393E0004475E5 /* spanishGuitar.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = spanishGuitar.m4r; sourceTree = "<group>"; };
+		53C5D515184393E0004475E5 /* specialMorning.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = specialMorning.m4r; sourceTree = "<group>"; };
+		53C5D516184393E0004475E5 /* tickTockJam.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = tickTockJam.m4r; sourceTree = "<group>"; };
+		53C5D517184393E0004475E5 /* tranceSoftAlarm.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = tranceSoftAlarm.m4r; sourceTree = "<group>"; };
+		53C5D523184465FD004475E5 /* MySound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySound.h; path = Models/MySound.h; sourceTree = "<group>"; };
+		53C5D524184465FD004475E5 /* MySound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySound.m; path = Models/MySound.m; sourceTree = "<group>"; };
+		53C5D5281844A019004475E5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		53C5D52A1845B0EC004475E5 /* RingingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RingingViewController.h; path = Controllers/RingingViewController.h; sourceTree = "<group>"; };
+		53C5D52B1845B0EC004475E5 /* RingingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RingingViewController.m; path = Controllers/RingingViewController.m; sourceTree = "<group>"; };
+		53C5D52D18478289004475E5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		53C5D532184783D3004475E5 /* AppOsVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppOsVersion.h; path = Models/AppOsVersion.h; sourceTree = "<group>"; };
+		53C5D533184783D3004475E5 /* AppOsVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppOsVersion.m; path = Models/AppOsVersion.m; sourceTree = "<group>"; };
+		53C5D53518486778004475E5 /* MySystemPreference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySystemPreference.h; path = Models/MySystemPreference.h; sourceTree = "<group>"; };
+		53C5D53618486778004475E5 /* MySystemPreference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySystemPreference.m; path = Models/MySystemPreference.m; sourceTree = "<group>"; };
+		53D91F941862E1D500FFC50D /* WhatsNewView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WhatsNewView_iPhone.xib; path = Views/WhatsNewView_iPhone.xib; sourceTree = "<group>"; };
+		53D91F96186966A900FFC50D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		53E17AFA1820DA1100CA0E56 /* Clock IT Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clock IT Free.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E17AFD1820DA1100CA0E56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53E17B011820DA1100CA0E56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53E17B051820DA1100CA0E56 /* Clock IT Free-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clock IT Free-Info.plist"; sourceTree = "<group>"; };
+		53E17B091820DA1100CA0E56 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53E17B0B1820DA1100CA0E56 /* Free Clock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Free Clock-Prefix.pch"; sourceTree = "<group>"; };
+		53E17B0C1820DA1100CA0E56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53E17B0D1820DA1100CA0E56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53E17B151820DA1100CA0E56 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = MyClockIt/HomeViewController.h; sourceTree = "<group>"; };
+		53E17B161820DA1100CA0E56 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = MyClockIt/HomeViewController.m; sourceTree = "<group>"; };
+		53E17B181820DA1100CA0E56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53E17B271820DA1100CA0E56 /* MyClockItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyClockItTests-Info.plist"; sourceTree = "<group>"; };
+		53E17B2B1820DA1100CA0E56 /* MyClockItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClockItTests.m; sourceTree = "<group>"; };
+		53E1B153185B14D8009DF09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		53E1B155185B14D8009DF09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		53E5E93618840B5200D103D4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53E5E93718840B5200D103D4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		53FFF896182CEC9000E56006 /* MyDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyDateTime.h; path = Models/MyDateTime.h; sourceTree = "<group>"; };
+		53FFF897182CEC9000E56006 /* MyDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyDateTime.m; path = Models/MyDateTime.m; sourceTree = "<group>"; };
+		53FFF898182CEC9000E56006 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Theme.h; path = Models/Theme.h; sourceTree = "<group>"; };
+		53FFF899182CEC9000E56006 /* Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Theme.m; path = Models/Theme.m; sourceTree = "<group>"; };
+		53FFF89C182CECDF00E56006 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = Controllers/SettingViewController.h; sourceTree = "<group>"; };
+		53FFF89D182CECDF00E56006 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = Controllers/SettingViewController.m; sourceTree = "<group>"; };
+		53FFF89F182CECEF00E56006 /* ThemeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThemeTableViewController.h; path = Controllers/ThemeTableViewController.h; sourceTree = "<group>"; };
+		53FFF8A0182CECEF00E56006 /* ThemeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThemeTableViewController.m; path = Controllers/ThemeTableViewController.m; sourceTree = "<group>"; };
+		53FFF8A1182CECEF00E56006 /* TimeFormatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeFormatTableViewController.h; path = Controllers/TimeFormatTableViewController.h; sourceTree = "<group>"; };
+		53FFF8A2182CECEF00E56006 /* TimeFormatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeFormatTableViewController.m; path = Controllers/TimeFormatTableViewController.m; sourceTree = "<group>"; };
+		53FFF8A6182CFF5100E56006 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		53FFF8A7182CFF5100E56006 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		53FFF8A8182CFF5100E56006 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		53FFF8A9182CFF5100E56006 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		53FFF8AA182CFF5100E56006 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		53FFF8AB182CFF5100E56006 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		53FFF8AC182CFF5100E56006 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		53FFF8AD182CFF5100E56006 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		53FFF8AE182CFF5100E56006 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		53FFF8AF182CFF5100E56006 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		53FFF8B0182CFF5100E56006 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		53FFF8B1182CFF5100E56006 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		53FFF8B2182CFF5100E56006 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		53FFF8B3182CFF5100E56006 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		53FFF8B4182CFF5100E56006 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		53FFF8B5182CFF5100E56006 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		53FFF8B6182CFF5100E56006 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		53FFF8B7182CFF5100E56006 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		53FFF8B8182CFF5100E56006 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		53FFF8C6182D05B200E56006 /* WeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherView.h; path = Views/WeatherView.h; sourceTree = "<group>"; };
+		53FFF8C7182D05B200E56006 /* WeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherView.m; path = Views/WeatherView.m; sourceTree = "<group>"; };
+		53FFF8CB1832551900E56006 /* MyWebRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyWebRequests.h; path = Models/MyWebRequests.h; sourceTree = "<group>"; };
+		53FFF8CC1832551900E56006 /* MyWebRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyWebRequests.m; path = Models/MyWebRequests.m; sourceTree = "<group>"; };
+		53FFF8D71833838500E56006 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53E17AF71820DA1100CA0E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5335104318BCD4C400EC914D /* iAd.framework in Frameworks */,
+				53632D3B18533D0F00849E10 /* AdSupport.framework in Frameworks */,
+				53632D3918533CF900849E10 /* SystemConfiguration.framework in Frameworks */,
+				53A64546185ED4680016DD81 /* libFlurry_4.3.0.a in Frameworks */,
+				5378EED4184CAFDE00BFE796 /* MediaPlayer.framework in Frameworks */,
+				53C5D52E18478289004475E5 /* MessageUI.framework in Frameworks */,
+				53C5D5291844A019004475E5 /* AVFoundation.framework in Frameworks */,
+				53FFF8D81833838500E56006 /* libsqlite3.dylib in Frameworks */,
+				53E17B021820DA1100CA0E56 /* UIKit.framework in Frameworks */,
+				53E17AFE1820DA1100CA0E56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		531B3BA11857215D0054FF72 /* EDSunriseSet-master */ = {
+			isa = PBXGroup;
+			children = (
+				531B3BA21857215D0054FF72 /* EDSunriseSet.h */,
+				531B3BA31857215D0054FF72 /* EDSunriseSet.m */,
+				531B3BA41857215D0054FF72 /* EDSunriseSet.podspec */,
+				531B3BA51857215D0054FF72 /* license.txt */,
+				531B3BA61857215D0054FF72 /* README.markdown */,
+			);
+			path = "EDSunriseSet-master";
+			sourceTree = "<group>";
+		};
+		53355131183B2D3600C666CE /* AlarmVC */ = {
+			isa = PBXGroup;
+			children = (
+				5335512E183B2D0B00C666CE /* AddAlarmViewController.h */,
+				5335512F183B2D0B00C666CE /* AddAlarmViewController.m */,
+				5335517C183B678A00C666CE /* AddAlarmVC */,
+			);
+			name = AlarmVC;
+			sourceTree = "<group>";
+		};
+		5335517C183B678A00C666CE /* AddAlarmVC */ = {
+			isa = PBXGroup;
+			children = (
+				53355176183B674200C666CE /* RepeatTableViewController.h */,
+				53355177183B674200C666CE /* RepeatTableViewController.m */,
+				53355179183B677300C666CE /* SoundTableViewController.h */,
+				5335517A183B677400C666CE /* SoundTableViewController.m */,
+				53C5D4D018433697004475E5 /* SnoozeTableViewController.h */,
+				53C5D4D118433697004475E5 /* SnoozeTableViewController.m */,
+			);
+			name = AddAlarmVC;
+			sourceTree = "<group>";
+		};
+		5378EED8184DF2D600BFE796 /* TSLibraryImport */ = {
+			isa = PBXGroup;
+			children = (
+				5378EED9184DF2D600BFE796 /* TSLibraryImport.h */,
+				5378EEDA184DF2D600BFE796 /* TSLibraryImport.m */,
+			);
+			path = TSLibraryImport;
+			sourceTree = "<group>";
+		};
+		5378EEDD184F4D3100BFE796 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53A6A33D189B780D00021396 /* Paris.gpx */,
+				53A6A33E189B785D00021396 /* Oslo.gpx */,
+				53A6A33F189BB03300021396 /* Beijing.gpx */,
+				531207C618AE3C830080269E /* Spain.gpx */,
+				5325ED4318B21EE400978D5A /* Germany.gpx */,
+				53A6A333189A5BD400021396 /* ALARM.sqlite */,
+				53A6A334189A5BD400021396 /* WEATHER.sqlite */,
+				53C5D4CB183CED5C004475E5 /* alarm.sqlite3 */,
+				53C5D50C184393E0004475E5 /* Sounds */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5378EEDE184F4D4900BFE796 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				53A64543185ED4680016DD81 /* Flurry */,
+				531B3BA11857215D0054FF72 /* EDSunriseSet-master */,
+				53FFF8A5182CFF5100E56006 /* AFNetworking */,
+				5378EED8184DF2D600BFE796 /* TSLibraryImport */,
+			);
+			name = APIs;
+			sourceTree = "<group>";
+		};
+		53A64543185ED4680016DD81 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				53A64544185ED4680016DD81 /* Flurry.h */,
+				53A64545185ED4680016DD81 /* libFlurry_4.3.0.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		53C5D50C184393E0004475E5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				53C5D50D184393E0004475E5 /* alarming.m4r */,
+				53C5D50E184393E0004475E5 /* digitalWatch.m4r */,
+				53C5D50F184393E0004475E5 /* goodMorning.m4r */,
+				53C5D510184393E0004475E5 /* hipHop.m4r */,
+				53C5D511184393E0004475E5 /* jingleBells.m4r */,
+				53C5D512184393E0004475E5 /* morningFlutter.m4r */,
+				53C5D513184393E0004475E5 /* rooster.m4r */,
+				53C5D514184393E0004475E5 /* spanishGuitar.m4r */,
+				53C5D515184393E0004475E5 /* specialMorning.m4r */,
+				53C5D516184393E0004475E5 /* tickTockJam.m4r */,
+				53C5D517184393E0004475E5 /* tranceSoftAlarm.m4r */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		53E17AF11820DA1100CA0E56 = {
+			isa = PBXGroup;
+			children = (
+				5378EEDD184F4D3100BFE796 /* Resources */,
+				5378EEDE184F4D4900BFE796 /* APIs */,
+				53E17B381821350200CA0E56 /* Models */,
+				53FFF894182CE95700E56006 /* Views */,
+				53FFF895182CE9FF00E56006 /* Controllers */,
+				53E17B031820DA1100CA0E56 /* MyClockIt */,
+				53E17B251820DA1100CA0E56 /* MyClockItTests */,
+				53E17AFC1820DA1100CA0E56 /* Frameworks */,
+				53E17AFB1820DA1100CA0E56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53E17AFB1820DA1100CA0E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53E17AFA1820DA1100CA0E56 /* Clock IT Free.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53E17AFC1820DA1100CA0E56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5335104218BCD4C400EC914D /* iAd.framework */,
+				53D91F96186966A900FFC50D /* AudioToolbox.framework */,
+				53632D3A18533D0F00849E10 /* AdSupport.framework */,
+				53632D3818533CF900849E10 /* SystemConfiguration.framework */,
+				5378EED3184CAFDE00BFE796 /* MediaPlayer.framework */,
+				53C5D52D18478289004475E5 /* MessageUI.framework */,
+				53C5D5281844A019004475E5 /* AVFoundation.framework */,
+				53FFF8D71833838500E56006 /* libsqlite3.dylib */,
+				53E17AFD1820DA1100CA0E56 /* Foundation.framework */,
+				53E17B011820DA1100CA0E56 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53E17B031820DA1100CA0E56 /* MyClockIt */ = {
+			isa = PBXGroup;
+			children = (
+				53E17B0C1820DA1100CA0E56 /* AppDelegate.h */,
+				53E17B0D1820DA1100CA0E56 /* AppDelegate.m */,
+				53E1B152185B14D8009DF09B /* Main_iPad.storyboard */,
+				53E1B154185B14D8009DF09B /* Main_iPhone.storyboard */,
+				5378EEDF1850444400BFE796 /* MyClockIt.entitlements */,
+				53E17B181820DA1100CA0E56 /* Images.xcassets */,
+				53E17B041820DA1100CA0E56 /* Supporting Files */,
+			);
+			path = MyClockIt;
+			sourceTree = "<group>";
+		};
+		53E17B041820DA1100CA0E56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53E1B14E185B14D8009DF09B /* InfoPlist.strings */,
+				53E1B150185B14D8009DF09B /* Localizable.strings */,
+				53E17B051820DA1100CA0E56 /* Clock IT Free-Info.plist */,
+				53E17B091820DA1100CA0E56 /* main.m */,
+				53E17B0B1820DA1100CA0E56 /* Free Clock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53E17B251820DA1100CA0E56 /* MyClockItTests */ = {
+			isa = PBXGroup;
+			children = (
+				53E17B2B1820DA1100CA0E56 /* MyClockItTests.m */,
+				53E17B261820DA1100CA0E56 /* Supporting Files */,
+			);
+			path = MyClockItTests;
+			sourceTree = "<group>";
+		};
+		53E17B261820DA1100CA0E56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53E17B271820DA1100CA0E56 /* MyClockItTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53E17B381821350200CA0E56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53C5D532184783D3004475E5 /* AppOsVersion.h */,
+				53C5D533184783D3004475E5 /* AppOsVersion.m */,
+				53FFF896182CEC9000E56006 /* MyDateTime.h */,
+				53FFF897182CEC9000E56006 /* MyDateTime.m */,
+				53FFF898182CEC9000E56006 /* Theme.h */,
+				53FFF899182CEC9000E56006 /* Theme.m */,
+				53C5D523184465FD004475E5 /* MySound.h */,
+				53C5D524184465FD004475E5 /* MySound.m */,
+				53FFF8CB1832551900E56006 /* MyWebRequests.h */,
+				53FFF8CC1832551900E56006 /* MyWebRequests.m */,
+				536C91B01834D31F00E7A002 /* WeatherViewInfo.h */,
+				536C91B11834D31F00E7A002 /* WeatherViewInfo.m */,
+				536C91B41834F79600E7A002 /* AlarmDatabase.h */,
+				536C91B51834F79600E7A002 /* AlarmDatabase.m */,
+				53A6A337189A5C6900021396 /* WeatherDatabase.h */,
+				53A6A338189A5C6900021396 /* WeatherDatabase.m */,
+				53C5D4B3183CC41A004475E5 /* AlarmInfo.h */,
+				53C5D4B4183CC41A004475E5 /* AlarmInfo.m */,
+				53C5D4CD183E140D004475E5 /* AlarmSchedular.h */,
+				53C5D4CE183E140D004475E5 /* AlarmSchedular.m */,
+				53C5D53518486778004475E5 /* MySystemPreference.h */,
+				53C5D53618486778004475E5 /* MySystemPreference.m */,
+				5335103F18BCC22500EC914D /* MyAlert.h */,
+				5335104018BCC22500EC914D /* MyAlert.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		53E17B3F1822349900CA0E56 /* SettingVC */ = {
+			isa = PBXGroup;
+			children = (
+				53FFF8A1182CECEF00E56006 /* TimeFormatTableViewController.h */,
+				53FFF8A2182CECEF00E56006 /* TimeFormatTableViewController.m */,
+				5352459C1839EA4C00BEB90E /* TemperatureFormatTableViewController.h */,
+				5352459D1839EA4C00BEB90E /* TemperatureFormatTableViewController.m */,
+				53FFF89F182CECEF00E56006 /* ThemeTableViewController.h */,
+				53FFF8A0182CECEF00E56006 /* ThemeTableViewController.m */,
+			);
+			name = SettingVC;
+			sourceTree = "<group>";
+		};
+		53FFF894182CE95700E56006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53FFF8C6182D05B200E56006 /* WeatherView.h */,
+				53FFF8C7182D05B200E56006 /* WeatherView.m */,
+				53A6454B1860617F0016DD81 /* WhatsNewView.h */,
+				53A6454C1860617F0016DD81 /* WhatsNewView.m */,
+				53C4E3D31861C97800DFDD7D /* WhatsNewView_iPad.xib */,
+				53D91F941862E1D500FFC50D /* WhatsNewView_iPhone.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		53FFF895182CE9FF00E56006 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				53E17B151820DA1100CA0E56 /* HomeViewController.h */,
+				53E17B161820DA1100CA0E56 /* HomeViewController.m */,
+				53FFF89C182CECDF00E56006 /* SettingViewController.h */,
+				53FFF89D182CECDF00E56006 /* SettingViewController.m */,
+				5335117218C07AE900EC914D /* PagedScrollViewController.h */,
+				5335117318C07AE900EC914D /* PagedScrollViewController.m */,
+				53E17B3F1822349900CA0E56 /* SettingVC */,
+				5352459F183A1EED00BEB90E /* AlarmViewController.h */,
+				535245A0183A1EED00BEB90E /* AlarmViewController.m */,
+				53355131183B2D3600C666CE /* AlarmVC */,
+				53C5D52A1845B0EC004475E5 /* RingingViewController.h */,
+				53C5D52B1845B0EC004475E5 /* RingingViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		53FFF8A5182CFF5100E56006 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				53FFF8A6182CFF5100E56006 /* AFHTTPClient.h */,
+				53FFF8A7182CFF5100E56006 /* AFHTTPClient.m */,
+				53FFF8A8182CFF5100E56006 /* AFHTTPRequestOperation.h */,
+				53FFF8A9182CFF5100E56006 /* AFHTTPRequestOperation.m */,
+				53FFF8AA182CFF5100E56006 /* AFImageRequestOperation.h */,
+				53FFF8AB182CFF5100E56006 /* AFImageRequestOperation.m */,
+				53FFF8AC182CFF5100E56006 /* AFJSONRequestOperation.h */,
+				53FFF8AD182CFF5100E56006 /* AFJSONRequestOperation.m */,
+				53FFF8AE182CFF5100E56006 /* AFNetworkActivityIndicatorManager.h */,
+				53FFF8AF182CFF5100E56006 /* AFNetworkActivityIndicatorManager.m */,
+				53FFF8B0182CFF5100E56006 /* AFNetworking.h */,
+				53FFF8B1182CFF5100E56006 /* AFPropertyListRequestOperation.h */,
+				53FFF8B2182CFF5100E56006 /* AFPropertyListRequestOperation.m */,
+				53FFF8B3182CFF5100E56006 /* AFURLConnectionOperation.h */,
+				53FFF8B4182CFF5100E56006 /* AFURLConnectionOperation.m */,
+				53FFF8B5182CFF5100E56006 /* AFXMLRequestOperation.h */,
+				53FFF8B6182CFF5100E56006 /* AFXMLRequestOperation.m */,
+				53FFF8B7182CFF5100E56006 /* UIImageView+AFNetworking.h */,
+				53FFF8B8182CFF5100E56006 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53E17AF91820DA1100CA0E56 /* Clock IT Free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E17B2F1820DA1100CA0E56 /* Build configuration list for PBXNativeTarget "Clock IT Free" */;
+			buildPhases = (
+				53E17AF61820DA1100CA0E56 /* Sources */,
+				53E17AF71820DA1100CA0E56 /* Frameworks */,
+				53E17AF81820DA1100CA0E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clock IT Free";
+			productName = MyClockIt;
+			productReference = 53E17AFA1820DA1100CA0E56 /* Clock IT Free.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53E17AF21820DA1100CA0E56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Deepak Bharati";
+				TargetAttributes = {
+					53E17AF91820DA1100CA0E56 = {
+						DevelopmentTeam = P326DL8696;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 53E17AF51820DA1100CA0E56 /* Build configuration list for PBXProject "Clock IT Free" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				ja,
+				fr,
+				"zh-Hans",
+				nb,
+				es,
+			);
+			mainGroup = 53E17AF11820DA1100CA0E56;
+			productRefGroup = 53E17AFB1820DA1100CA0E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53E17AF91820DA1100CA0E56 /* Clock IT Free */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53E17AF81820DA1100CA0E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531B3BAA1857215D0054FF72 /* README.markdown in Resources */,
+				53E1B158185B14D8009DF09B /* Main_iPad.storyboard in Resources */,
+				53E1B156185B14D8009DF09B /* InfoPlist.strings in Resources */,
+				53E17B191820DA1100CA0E56 /* Images.xcassets in Resources */,
+				53C5D51F184393E0004475E5 /* spanishGuitar.m4r in Resources */,
+				531B3BA81857215D0054FF72 /* EDSunriseSet.podspec in Resources */,
+				53C5D51A184393E0004475E5 /* goodMorning.m4r in Resources */,
+				53C5D4CC183CED5C004475E5 /* alarm.sqlite3 in Resources */,
+				53C5D51D184393E0004475E5 /* morningFlutter.m4r in Resources */,
+				53C5D51B184393E0004475E5 /* hipHop.m4r in Resources */,
+				53C5D521184393E0004475E5 /* tickTockJam.m4r in Resources */,
+				53C5D518184393E0004475E5 /* alarming.m4r in Resources */,
+				53E1B157185B14D8009DF09B /* Localizable.strings in Resources */,
+				53C5D522184393E0004475E5 /* tranceSoftAlarm.m4r in Resources */,
+				53C4E3D41861C97800DFDD7D /* WhatsNewView_iPad.xib in Resources */,
+				531B3BA91857215D0054FF72 /* license.txt in Resources */,
+				53C5D51C184393E0004475E5 /* jingleBells.m4r in Resources */,
+				53E1B159185B14D8009DF09B /* Main_iPhone.storyboard in Resources */,
+				53C5D520184393E0004475E5 /* specialMorning.m4r in Resources */,
+				53A6A335189A5BD400021396 /* ALARM.sqlite in Resources */,
+				53C5D51E184393E0004475E5 /* rooster.m4r in Resources */,
+				53D91F951862E1D500FFC50D /* WhatsNewView_iPhone.xib in Resources */,
+				53A6A336189A5BD400021396 /* WEATHER.sqlite in Resources */,
+				53C5D519184393E0004475E5 /* digitalWatch.m4r in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53E17AF61820DA1100CA0E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536C91B21834D31F00E7A002 /* WeatherViewInfo.m in Sources */,
+				53E17B171820DA1100CA0E56 /* HomeViewController.m in Sources */,
+				53FFF8C8182D05B200E56006 /* WeatherView.m in Sources */,
+				53FFF8C1182CFF5100E56006 /* UIImageView+AFNetworking.m in Sources */,
+				53FFF8A4182CECEF00E56006 /* TimeFormatTableViewController.m in Sources */,
+				5378EEDB184DF2D600BFE796 /* TSLibraryImport.m in Sources */,
+				53FFF8BC182CFF5100E56006 /* AFJSONRequestOperation.m in Sources */,
+				53FFF8BA182CFF5100E56006 /* AFHTTPRequestOperation.m in Sources */,
+				53C5D4CF183E140D004475E5 /* AlarmSchedular.m in Sources */,
+				53FFF8C0182CFF5100E56006 /* AFXMLRequestOperation.m in Sources */,
+				53355130183B2D0B00C666CE /* AddAlarmViewController.m in Sources */,
+				53FFF8BF182CFF5100E56006 /* AFURLConnectionOperation.m in Sources */,
+				53C5D53718486778004475E5 /* MySystemPreference.m in Sources */,
+				53A6454D1860617F0016DD81 /* WhatsNewView.m in Sources */,
+				531B3BA71857215D0054FF72 /* EDSunriseSet.m in Sources */,
+				53FFF8BB182CFF5100E56006 /* AFImageRequestOperation.m in Sources */,
+				53FFF8B9182CFF5100E56006 /* AFHTTPClient.m in Sources */,
+				535245A1183A1EED00BEB90E /* AlarmViewController.m in Sources */,
+				53E17B0E1820DA1100CA0E56 /* AppDelegate.m in Sources */,
+				53FFF89A182CEC9000E56006 /* MyDateTime.m in Sources */,
+				53FFF8BE182CFF5100E56006 /* AFPropertyListRequestOperation.m in Sources */,
+				53FFF89B182CEC9000E56006 /* Theme.m in Sources */,
+				53C5D534184783D3004475E5 /* AppOsVersion.m in Sources */,
+				53C5D4D218433697004475E5 /* SnoozeTableViewController.m in Sources */,
+				5335117418C07AE900EC914D /* PagedScrollViewController.m in Sources */,
+				53C5D52C1845B0EC004475E5 /* RingingViewController.m in Sources */,
+				53FFF8CD1832551900E56006 /* MyWebRequests.m in Sources */,
+				53C5D4B5183CC41A004475E5 /* AlarmInfo.m in Sources */,
+				53FFF8BD182CFF5100E56006 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				53A6A339189A5C6900021396 /* WeatherDatabase.m in Sources */,
+				53E17B0A1820DA1100CA0E56 /* main.m in Sources */,
+				5335104118BCC22500EC914D /* MyAlert.m in Sources */,
+				53FFF89E182CECDF00E56006 /* SettingViewController.m in Sources */,
+				53355178183B674200C666CE /* RepeatTableViewController.m in Sources */,
+				5335517B183B677400C666CE /* SoundTableViewController.m in Sources */,
+				536C91B61834F79600E7A002 /* AlarmDatabase.m in Sources */,
+				53C5D525184465FD004475E5 /* MySound.m in Sources */,
+				5352459E1839EA4C00BEB90E /* TemperatureFormatTableViewController.m in Sources */,
+				53FFF8A3182CECEF00E56006 /* ThemeTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53E1B14E185B14D8009DF09B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				539F91B2185B36FF000B4CAC /* en */,
+				53650C7F187FC4D6009D193F /* zh-Hans */,
+				53E5E93618840B5200D103D4 /* fr */,
+				5394CFAA18914B3900B22C74 /* nb */,
+				53A6A34018AB54F400021396 /* es */,
+				5325ED4118B20E5B00978D5A /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53E1B150185B14D8009DF09B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				539F91B1185B36F3000B4CAC /* en */,
+				53650C80187FC4D6009D193F /* zh-Hans */,
+				53E5E93718840B5200D103D4 /* fr */,
+				5394CFAB18914B3900B22C74 /* nb */,
+				53A6A34118AB54F400021396 /* es */,
+				5325ED4218B20E5B00978D5A /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		53E1B152185B14D8009DF09B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E1B153185B14D8009DF09B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		53E1B154185B14D8009DF09B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E1B155185B14D8009DF09B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53E17B2D1820DA1100CA0E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sarvjeet Singh (W8FNF2K4W7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sarvjeet Singh (W8FNF2K4W7)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "879C9AA3-FFC6-472C-BAE6-CF40AE4ED1A0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53E17B2E1820DA1100CA0E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Creo IT Pvt Ltd (P326DL8696)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Creo IT Pvt Ltd (P326DL8696)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "E2A73A82-F186-4C88-9E40-EF95CB403B6A";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53E17B301820DA1100CA0E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyClockIt/Clock IT Free-Prefix.pch";
+				INFOPLIST_FILE = "MyClockIt/Clock IT Free-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/deepakbharati/Desktop/Work/MyClockIt/Flurry,
+					/Users/sarvjeetsingh/Desktop/Work/ClockIT2.0/Flurry,
+					"/Users/deepakbharati/Desktop/Work/Clock\\ IT\\ All\\ Versions/clock-it-2.1/Flurry",
+					"/Users/deepakbharati/Desktop/Work/Clock\\ IT\\ All\\ Versions/clock-it-2.0.2/Flurry",
+				);
+				PRODUCT_NAME = "Clock IT Free";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53E17B311820DA1100CA0E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyClockIt/Clock IT Free-Prefix.pch";
+				INFOPLIST_FILE = "MyClockIt/Clock IT Free-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/deepakbharati/Desktop/Work/MyClockIt/Flurry,
+					/Users/sarvjeetsingh/Desktop/Work/ClockIT2.0/Flurry,
+					"/Users/deepakbharati/Desktop/Work/Clock\\ IT\\ All\\ Versions/clock-it-2.1/Flurry",
+					"/Users/deepakbharati/Desktop/Work/Clock\\ IT\\ All\\ Versions/clock-it-2.0.2/Flurry",
+				);
+				PRODUCT_NAME = "Clock IT Free";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53E17AF51820DA1100CA0E56 /* Build configuration list for PBXProject "Clock IT Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E17B2D1820DA1100CA0E56 /* Debug */,
+				53E17B2E1820DA1100CA0E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E17B2F1820DA1100CA0E56 /* Build configuration list for PBXNativeTarget "Clock IT Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E17B301820DA1100CA0E56 /* Debug */,
+				53E17B311820DA1100CA0E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53E17AF21820DA1100CA0E56 /* Project object */;
+}

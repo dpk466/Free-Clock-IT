@@ -1,0 +1,395 @@
+/*...French...*///base is in english.
+
+/*
+  Localizable.strings
+  Clock IT
+
+  Created by Deepak Bharati on 12/12/13.
+  Copyright (c) 2013 Deepak Bharati. All rights reserved.
+*/
+
+
+
+/*-----------------------------------------------------------ScreenShot_1-----------------------------------------------------------------*/
+
+//SettingViewController
+
+/* Setting */
+"SETTING_TABLE_TITLE" = "Réglages";
+
+/* Done */
+"DONE_BUTTON_TEXT" = "OK";
+
+/* Time */
+"TIME_HEADER" = "Horloge";
+
+/* Time format */
+"TIME_FORMAT" = "24h/12h";
+
+/* Weather */
+"WEATHER_HEADER" = "Météo";
+
+/* Weather */
+"WEATHER" = "Météo";
+
+/* Temperature format */
+"TEMPERATURE_FORMAT" = "Degrés C/F";
+
+/* Automatic hourly weather updates. Turn off weather to prevent cellular and wifi data usage. */
+"WEATHER_FOOTER" = "Mise à jour automatique toutes les heures. Eteindre afin de déconnecter l’application d’internet.";
+
+/* Display */
+"DISPLAY_HEADER" = "Affichage";
+
+/* Theme */
+"THEME" = "Motif";
+
+/* In-app brightness */
+"APP_BRIGHTNESS" = "Luminosité de l'app";
+
+/* Set brightness control independent of device brightness. */
+"DISPLAY_FOOTER" = "Règle uniquement la luminosité de l'application.";
+
+
+
+/*-----------------------------------------------------------ScreenShot_2-----------------------------------------------------------------*/
+
+/* About */
+"ABOUT_HEADER" = "Informations";
+
+/* Share with friends */
+"SHARE_WITH_FRIENDS" = "Partagez avec vos amis";
+
+/* Email support */
+"EMAIL_SUPPORT" = "Aide et commentaires";
+
+/* Write us a review */
+"WRITE_US_A_REVIEW" = "Critique";
+
+/* Version */
+"VERSION" = "Version";
+
+/* Advanced */
+"ADVANCED_HEADER" = "Autre";
+
+/* Auto-lock */
+"AUTO_LOCK" = "Verrouillage automatique";
+
+/* When Auto-Lock is on, device locks automatically according to native settings. */
+"ADVANCED_FOOTER" = "Activez pour verrouiller l'écran selon les réglages de l'appareil";
+
+/* Fade-in */
+"FADE_IN_ALARM" =  "Crescendo";
+
+"ALARM_FOOTER" = "Augmente progressivement le son";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_3-----------------------------------------------------------------*/
+
+//TimeFormatTableViewController
+
+/* 12-Hour */
+"12_HOUR_TEXT" = "12h";
+
+/* 24-Hour */
+"24_HOUR_TEXT" = "24h";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_4-----------------------------------------------------------------*/
+
+//TemperatureFormatTableViewController
+
+/* Celsius */
+"CELSIUS_TEXT" = "Celsius";
+
+/* Fahrenheit */
+"FAHRENHEIT_TEXT"= "Fahrenheit";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_5-----------------------------------------------------------------*/
+
+/* Check out this cool app I've been using, Clock IT. Transform your device into an elegant modern nightstand alarm. */
+"SHARE_TEXT" = "Regadez cette nouvelle app, Horloge. Transformez votre appareil en un réveil élégant et fonctionnel.";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_6-----------------------------------------------------------------*/
+
+/* PLEASE DESCRIBE BELOW THE PROBLEM YOU ARE FACING SO WE CAN IMPROVE YOUR Clock IT EXPERIENCE:
+ 
+ The following details relating to your application and device help us diagnose any technical issues which your comments might relate to.
+ 
+ However, you can remove them if you prefer. */
+"SUPPORT_TEXT" = "VEUILLEW DECRIRE LE PROBLEME QUE VOUS AVEZ RENCONTRE AFIN QUE NOUS PUISSIONS AMELIORER VOTRE EXPERIENCE AVEC Horloge:<br><br><br><br><br>Les informations suivantes concernant votre application et votre appareil nous aident à diagnostiquer les problèmes techniques liés à vos commentaires.<br><br>Cependant, vous pouvez les enlever si vous le souhaiter.";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_7-----------------------------------------------------------------*/
+
+//AlarmViewController
+
+/* Alarms */
+"ALARMS_TEXT" = "Alarme";
+
+/* Edit */
+"EDIT_BUTTON_TEXT" = "Modifier";
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_8_&_9-------------------------------------------------------------*/
+
+//AddAlarmTableViewController
+
+/* Add alarm */
+"ADD_ALARM_TITLE" = "Nouv alarme";
+
+/* Edit alarm */
+"EDIT_ALARM_TITLE" = "Modifier alarme";
+
+/* Save */
+"SAVE_BUTTON_TEXT" = "Enregistrer";
+
+/* Repeat */
+"REPEAT_TEXT" = "Récurrence";
+
+//RepeatDays...
+/* Sun  */
+"SUN_TEXT" = "Dim ";
+
+/* Mon  */
+"MON_TEXT" = "Lun ";
+
+/* Tue  */
+"TUE_TEXT" = "Mar ";
+
+/* Wed  */
+"WED_TEXT" = "Mer ";
+
+/* Thu  */
+"THU_TEXT" = "Jeu ";
+
+/* Fri  */
+"FRI_TEXT" = "Ven ";
+
+/* Sat  */
+"SAT_TEXT" = "Sam ";
+
+/* Weekdays */
+"WEEKDAYS_TEXT" = "Semaine";
+
+/* Weekends */
+"WEEKENDS_TEXT" = "Week-end";
+
+/* Every day */
+"EVERYDAY_TEXT" = "Tous les jours";
+
+/* Never */
+"NEVER_TEXT" = "Jamais";
+
+/* Sound */
+"SOUND_TEXT" = "Sonnerie";
+
+/* Snooze */
+"SNOOZE_TEXT" = "Rappel d'alarme";
+
+/* Label */
+"LABEL_TEXT" = "Description";
+
+/* Alarm */
+"DEFAULT_ALARM_NAME" = "Alarme";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_10----------------------------------------------------------------*/
+
+//RepeatTableViewController
+
+/* Every sunday */
+"EVERY_SUNDAY" = "Chaque dimanche";
+
+/* Every monday */
+"EVERY_MONDAY" = "Chaque lundi";
+
+/* Every tuesday */
+"EVERY_TUESDAY" = "Chaque mardi";
+
+/* Every wednesday */
+"EVERY_WEDNESDAY" = "Chaque mercredi";
+
+/* Every thursday */
+"EVERY_THURDAY" = "Chaque jeudi";
+
+/* Every friday */
+"EVERY_FRIDAY" = "Chaque vendredi";
+
+/* Every saturday */
+"EVERY_SATURDAY" = "Chaque samedi";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_11----------------------------------------------------------------*/
+
+//SoundTableViewController
+
+/* Music */
+"MUSIC_TEXT" = "Musique";
+
+/* Music alarms will sound when app is running in foreground. Default alarm Tick tock jam will sound when app in lock screen or background. */
+"MUSIC_FOOTER" = "Afin d'écouter votre musique, l'application doit être au premier plan. Lorque l'écran est verrouillé ou l'application est à l'arrière-plan, vous entendrez Tick Tock Jam.";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_12----------------------------------------------------------------*/
+
+//SnoozeTableViewController
+
+/* 2 minutes */
+"SNOOZE1" = "2 minutes";
+
+/* 5 minutes */
+"SNOOZE2" = "5 minutes";
+
+/* 10 minutes */
+"SNOOZE3" = "10 minutes";
+
+/* 15 minutes */
+"SNOOZE4" = "15 minutes";
+
+/* 30 minutes */
+"SNOOZE5" = "30 minutes";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_13----------------------------------------------------------------*/
+
+//RingingViewController
+
+/* Snooze */
+"SNOOZE_BUTTON" = "Rappel d'alarme";
+
+/* I'm awake */
+"AWAKE_BUTTON" = "Je suis réveillé";
+
+
+
+
+
+/*-----------------------------------------------------------ScreenShot_14----------------------------------------------------------------*/
+
+//WhatsNewView
+
+/* We've rebuilt our app from the ground up. 
+ It's a whole lot faster and smarter. */
+"WHATS_NEW_HEADER" = "Nous sommes partis de zéro pour créer cette application. \nC'est plus rapide et intelligent.";
+
+/* Swipe to adjust brightness */
+"FEATURE_ONE" = "balayer l’écran vers le haut ou le bas avec le doigt pour ajuster la luminosité";
+
+/* Wake up to your own music */
+"FEATURE_TWO" = "Sélectionnez votre sonnerie préférée à partir de votre CD-thèque";
+
+/* Launch */
+"OK_BUTTON" = "Lancer";
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+/******************************************************************************************************************************************/
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------ScreenShot_15---------------------------------------------------------------*/
+
+//These are the alarm Sound Names.
+
+/* Tick tock jam */
+"SOUND1" = "Tick tock jam";
+
+/* Jingle bells */
+"SOUND2" = "Jingle bells";
+
+/* Alarming */
+"SOUND3" = "Alarming";
+
+/* Digital watch */
+"SOUND4" = "Digital watch";
+
+/* Good morning */
+"SOUND5" = "Good morning";
+
+/* Morning flutter */
+"SOUND6" = "Morning flutter";
+
+/* Rooster */
+"SOUND7" = "Rooster";
+
+/* Spanish guitar */
+"SOUND8" = "Spanish guitar";
+
+/* Special morning */
+"SOUND9" = "Special morning";
+
+/* Trance soft alarm */
+"SOUND10" = "Trance soft alarm";
+
+/* Hip hop */
+"SOUND11" = "Hip hop";
+
+/*------------------------------------------------------------ScreenShot_16---------------------------------------------------------------*/
+
+//ThemeTableViewController
+
+//These are the different Theme Names.
+
+"MODERNO_TEXT" = "Moderno";
+"CARBON_TEXT" = "Carbon";
+"SCARLET_TEXT" = "Scarlet";
+"AZURE_TEXT" = "Azure";
+"HARMONY_TEXT" = "Harmony";
+"SUNSHINE_TEXT" = "Sunshine";
+"AURORA_TEXT" = "Aurora";
+"XMAS_TEXT" = "Xmas";
+
+
+/*------------------------------------------------------------HomeScreen---------------------------------------------------------------*/
+
+/* , */
+"COMMA_SYMBOL" = "";
+
+
+/*------------------------------------------------------------DatabaseStuffs---------------------------------------------------------------*/
+
+/* Column name in db for weatherString */
+"DB_COLUMN"= "FRE";
+/*------------------------------------------------------------TextToPointFullVersion---------------------------------------------------------------*/
+
+"GET_UPGRADE" = "Enable Weather";
+"REMOVE_AD" = "Remove ads";
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
